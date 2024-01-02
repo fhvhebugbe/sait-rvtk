@@ -1,0 +1,92 @@
+css
+/* Стили для шапки */
+header {
+background: linear-gradient(to right, #42fa5a, #F8B501);
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-family: 'Courier New', sans-serif;
+color: #fff;
+font-size: 2em;
+letter-spacing: 2px;
+text-shadow: 2px 2px 4px #000;
+border-bottom: 5px solid #F8F8F8;
+}
+
+/* Стили для навигации */
+nav {
+background-color: #F8F8F8;
+padding: 10px 0;
+text-align: center;
+}
+
+nav a {
+text-decoration: underline;
+color: #73fa42;
+font-weight: bold;
+padding: 0 10px;
+transition: all 0.3s ease;
+}
+
+nav a:hover {
+color: #F8B501;
+}
+
+/* Стили для секции с информацией о колледже */
+.college-info {
+background-color: #F8F8F8;
+padding: 40px;
+margin: 20px 0;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+
+.college-info h2 {
+color: #42fa76;
+font-size: 3em;
+margin-bottom: 20px;
+text-transform: lowercase;
+}
+
+.college-info p {
+font-size: 1.2em;
+line-height: 1.6;
+}
+
+/* Стили для контактной информации */
+.contact-info {
+background: radial-gradient(circle, #42fa64, #F8B501);
+padding: 40px;
+text-align: center;
+color: #fff;
+}
+
+.contact-info p {
+margin-bottom: 15px;
+font-size: 1.3em;
+}
+
+/* Стили для футера */
+footer {
+background-color: #4efa42;
+color: #fff;
+padding: 20px;
+text-align: center;
+position: down;
+bottom: 0;
+width: 100%;
+}
+
+/* Стили для ссылок */
+a {
+color: #01f868;
+text-decoration: underline;
+transition: all 0.3s ease;
+font-weight: bold;
+}
+
+a:hover {
+color: #42fa9e;
+}
